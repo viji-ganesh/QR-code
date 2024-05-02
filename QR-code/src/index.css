@@ -3,10 +3,18 @@
   
 }
 #root{
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 } 
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  
+  
+}
 .input-section{
   display: flex;
   flex-direction: column;
@@ -14,9 +22,35 @@
 }
 .input-label{
   margin: 10px 0px;
-  font-size: 18px; 
+  font-size: 16px; 
 }
-button{
-  margin: 10px 0px;
-  width: 80px;
+.button{
+  display: flex;
+  margin: 20px 0px;
+ 
+  gap: 10px;
+  justify-content: center;
+}
+.generate-btn, .download-btn{
+  padding: 18px 18px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(170, 187, 238);
+  cursor: pointer;
+  border-radius: ;
+}
+p{
+  text-align: right;
+  margin-top: 40px;
+}
+h1{
+  color: rgb(43, 31, 180);
+}
+input[type=text]{
+  padding: 9px;
+  font-size: large;
+  outline: none;
+  border: 2px solid navy;
+  border-radius: 5px;
 }
