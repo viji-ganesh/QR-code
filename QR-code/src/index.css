@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.input-section{
+  display: flex;
+  flex-direction: column;
+  
+}
+.input-label{
+  margin: 10px 0px;
+  font-size: 18px; 
+}
+button{
+  margin: 10px 0px;
+  width: 80px;
+}
